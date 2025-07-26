@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Take Action | SmileCare Network</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&family=Pacifico&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <header>
+    <div class="header-grid">
+      <div class="brand">
+        <a href="index.html" style="text-decoration: none; color: inherit;">
+          <span class="wordmark">SmileCare Network</span>
+          <span class="tagline">You Matter. Your Smile Matters.</span>
+        </a>
+      </div>
+      <div class="socials">
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      </div>
+      <nav>
+        <a href="what-we-do.html">WHAT WE DO</a>
+        <a href="who.html">WHO</a>
+        <a href="donate.html">DONATE</a>
+        <a href="community.html">COMMUNITY</a>
+        <a href="take-action.html">TAKE ACTION</a>
+        <a href="shop.html">SHOP</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <div class="container">
+      <section class="section">
+        <h1 class="section-title">Take Action</h1>
+        <p class="section-subtitle">
+          Ready to make a difference? There are many ways to get involved with SmileCare Network. 
+          Whether you're a dental professional, community member, or advocate, your contribution matters.
+        </p>
+
+        <div class="card-grid">
+          <div class="card">
+            <div class="card-icon">
+              <i class="fas fa-user-md"></i>
+            </div>
+            <h3>Volunteer as a Professional</h3>
+            <p>Dentists, hygienists, and dental assistants can provide direct patient care at our clinics and mobile units.</p>
+            <a href="#volunteer-form" class="btn btn-primary" style="margin-top: 20px; display: inline-block;">Apply to Volunteer</a>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">
+              <i class="fas fa-hands-helping"></i>
+            </div>
+            <h3>Support Volunteer</h3>
+            <p>Help with patient registration, community outreach, event coordination, and administrative support.</p>
+            <a href="#volunteer-form" class="btn btn-primary" style="margin-top: 20px; display: inline-block;">Join Our Team</a>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">
+              <i class="fas fa-bullhorn"></i>
+            </div>
+            <h3>Advocate for Change</h3>
+            <p>Help us advocate for policies that improve access to dental care in underserved communities.</p>
+            <a href="#advocacy" class="btn btn-primary" style="margin-top: 20px; display: inline-block;">Learn More</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="volunteer-form" class="section" style="background: var(--blue-bg); color: var(--white); margin: 0 -20px; padding: 80px 20px;">
+        <div class="container">
+          <h2 class="section-title" style="color: var(--white);">Volunteer Application</h2>
+          <div style="max-width: 600px; margin: 0 auto;">
+            <form class="volunteer-form" style="background: var(--white); padding: 40px; border-radius: 12px; box-shadow: 0 8px 32px var(--shadow); color: var(--text-dark);">
+              <div style="margin-bottom: 20px;">
+                <label for="vol-name" style="display: block; margin-bottom: 10px; font-weight: 600; color: var(--text-dark);">Full Name *</label>
+                <input type="text" id="vol-name" name="name" required style="width: 100%; padding: 15px; border: 2px solid var(--blue-bg); border-radius: 8px; font-size: 16px;">
+              </div>
+
+              <div style="margin-bottom: 20px;">
+                <label for="vol-email" style="display: block; margin-bottom: 10px; font-weight: 600; color: var(--text-dark);">Email Address *</label>
+                <input type="email" id="vol-email" name="email" required style="width: 100%; padding: 15px; border: 2px solid var(--blue-bg); border-radius: 8px; font-size: 16px;">
+              </div>
+
+              <div style="margin-bottom: 20px;">
+                <label for="vol-phone" style="display: block; margin-bottom: 10px; font-weight: 600; color: var(--text-dark);">Phone Number *</label>
+                <input type="tel" id="vol-phone" name="phone" required style="width: 100%; padding: 15px; border: 2px solid var(--blue-bg); border-radius: 8px; font-size: 16px;">
+              </div>
+
+              <div style="margin-bottom: 20px;">
+                <label for="vol-role" style="display: block; margin-bottom: 10px; font-weight: 600; color: var(--text-dark);">Volunteer Role *</label>
+                <select id="vol-role" name="role" required style="width: 100%; padding: 15px; border: 2px solid var(--blue-bg); border-radius: 8px; font-size: 16px;">
+                  <option value="">Select a role</option>
+                  <option value="dentist">Dentist</option>
+                  <option value="hygienist">Dental Hygienist</option>
+                  <option value="assistant">Dental Assistant</option>
+                  <option value="support">Support Volunteer</option>
+                  <option value="outreach">Community Outreach</option>
+                  <option value="admin">Administrative Support</option>
+                </select>
+              </div>
+
+              <div style="margin-bottom: 20px;">
+                <label for="vol-availability" style="display: block; margin-bottom: 10px; font-weight: 600; color: var(--text-dark);">Availability *</label>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px;">
+                  <label style="display: flex; align-items: center; gap: 8px; color: var(--text-dark);">
+                    <input type="checkbox" name="availability" value="weekdays">
+                    Weekdays
+                  </label>
+                  <label style="display: flex; align-items: center; gap: 8px; color: var(--text-dark);">
+                    <input type="checkbox" name="availability" value="weekends">
+                    Weekends
+                  </label>
+                  <label style="display: flex; align-items: center; gap: 8px; color: var(--text-dark);">
+                    <input type="checkbox" name="availability" value="evenings">
+                    Evenings
+                  </label>
+                  <label style="display: flex; align-items: center; gap: 8px; color: var(--text-dark);">
+                    <input type="checkbox" name="availability" value="flexible">
+                    Flexible
+                  </label>
+                </div>
+              </div>
+
+              <div style="margin-bottom: 20px;">
+                <label for="vol-experience" style="display: block; margin-bottom: 10px; font-weight: 600; color: var(--text-dark);">Experience/Background</label>
+                <textarea id="vol-experience" name="experience" rows="4" placeholder="Tell us about your relevant experience, skills, or why you want to volunteer..." style="width: 100%; padding: 15px; border: 2px solid var(--blue-bg); border-radius: 8px; font-size: 16px; font-family: inherit;"></textarea>
+              </div>
+
+              <div style="margin-bottom: 20px;">
+                <label style="display: flex; align-items: center; gap: 8px; color: var(--text-dark);">
+                  <input type="checkbox" required>
+                  I agree to volunteer my time and understand this is a commitment to serve our community
+                </label>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 18px; padding: 20px;">
+                <i class="fas fa-heart" style="margin-right: 10px;"></i>
+                Submit Application
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="advocacy" class="section">
+        <h2 class="section-title">Advocacy & Awareness</h2>
+        <div class="card-grid">
+          <div class="card">
+            <div class="card-icon">
+              <i class="fas fa-envelope-open-text"></i>
+            </div>
+            <h3>Write to Legislators</h3>
+            <p>Use our template letters to contact your local and state representatives about improving access to dental care.</p>
+            <a href="#" class="btn btn-primary" style="margin-top: 20px; display: inline-block;">Get Templates</a>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">
+              <i class="fas fa-share-alt"></i>
+            </div>
+            <h3>Social Media Advocacy</h3>
+            <p>Share our stories and statistics on social media to raise awareness about dental health disparities.</p>
+            <a href="#" class="btn btn-primary" style="margin-top: 20px; display: inline-block;">Share Content</a>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">
+              <i class="fas fa-chart-bar"></i>
+            </div>
+            <h3>Data & Research</h3>
+            <p>Access our research and statistics about dental health disparities to support your advocacy efforts.</p>
+            <a href="#" class="btn btn-primary" style="margin-top: 20px; display: inline-block;">View Research</a>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">
+              <i class="fas fa-calendar-check"></i>
+            </div>
+            <h3>Attend Events</h3>
+            <p>Join us at advocacy events, town halls, and community meetings to make your voice heard.</p>
+            <a href="#" class="btn btn-primary" style="margin-top: 20px; display: inline-block;">View Events</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" style="background: var(--blue-bg); color: var(--white); margin: 0 -20px; padding: 80px 20px;">
+        <div class="container">
+          <h2 class="section-title" style="color: var(--white);">Current Campaigns</h2>
+          <div class="card-grid">
+            <div class="card" style="background: var(--white); color: var(--text-dark);">
+              <h3 style="color: var(--text-dark);">#SmilesForAll</h3>
+              <p style="color: var(--text-dark);">Our campaign to expand Medicaid dental coverage in all 50 states. Join thousands of advocates working for change.</p>
+              <a href="#" class="btn btn-primary" style="margin-top: 20px; display: inline-block;">Join Campaign</a>
+            </div>
+
+            <div class="card" style="background: var(--white); color: var(--text-dark);">
+              <h3 style="color: var(--text-dark);">Mobile Clinic Expansion</h3>
+              <p style="color: var(--text-dark);">Help us expand our mobile dental clinic program to reach more rural and underserved communities.</p>
+              <a href="#" class="btn btn-primary" style="margin-top: 20px; display: inline-block;">Support Expansion</a>
+            </div>
+
+            <div class="card" style="background: var(--white); color: var(--text-dark);">
+              <h3 style="color: var(--text-dark);">School Dental Programs</h3>
+              <p style="color: var(--text-dark);">Advocating for comprehensive dental health education and screening programs in public schools.</p>
+              <a href="#" class="btn btn-primary" style="margin-top: 20px; display: inline-block;">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Training & Resources</h2>
+        <div class="card-grid">
+          <div class="card">
+            <div class="card-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3>Volunteer Training</h3>
+            <p>Complete our online training modules to prepare for your volunteer role. Training is required for all new volunteers.</p>
+            <a href="#" class="btn btn-primary" style="margin-top: 20px; display: inline-block;">Start Training</a>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">
+              <i class="fas fa-book"></i>
+            </div>
+            <h3>Resource Library</h3>
+            <p>Access our library of educational materials, best practices, and guidelines for dental care in underserved communities.</p>
+            <a href="#" class="btn btn-primary" style="margin-top: 20px; display: inline-block;">Browse Resources</a>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3>Mentorship Program</h3>
+            <p>Connect with experienced volunteers through our mentorship program. Get guidance and support as you begin your journey.</p>
+            <a href="#" class="btn btn-primary" style="margin-top: 20px; display: inline-block;">Find a Mentor</a>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <h3>Certification Programs</h3>
+            <p>Earn certifications in community dental health, patient education, and advocacy through our specialized programs.</p>
+            <a href="#" class="btn btn-primary" style="margin-top: 20px; display: inline-block;">View Programs</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Impact Stories</h2>
+        <p class="section-subtitle">
+          See how volunteers are making a difference in communities across the country.
+        </p>
+        <div class="card-grid">
+          <div class="card">
+            <div style="text-align: center; margin-bottom: 20px;">
+              <div style="width: 80px; height: 80px; background: var(--blue-bg); border-radius: 50%; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; font-size: 32px; color: var(--white);">
+                <i class="fas fa-user-md"></i>
+              </div>
+            </div>
+            <h3>Dr. Sarah's Impact</h3>
+            <p>"I've been volunteering for 3 years and have treated over 500 patients. The gratitude and transformation I see in patients keeps me motivated."</p>
+            <p style="color: var(--blue-bg); font-weight: 600; margin-top: 15px;">- Dr. Sarah Chen, Volunteer Dentist</p>
+          </div>
+
+          <div class="card">
+            <div style="text-align: center; margin-bottom: 20px;">
+              <div style="width: 80px; height: 80px; background: var(--blue-bg); border-radius: 50%; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; font-size: 32px; color: var(--white);">
+                <i class="fas fa-hands-helping"></i>
+              </div>
+            </div>
+            <h3>Community Outreach Success</h3>
+            <p>"Our team reached 1,000+ students in local schools with dental education. The impact on children's oral health habits has been incredible."</p>
+            <p style="color: var(--blue-bg); font-weight: 600; margin-top: 15px;">- Maria Rodriguez, Outreach Coordinator</p>
+          </div>
+
+          <div class="card">
+            <div style="text-align: center; margin-bottom: 20px;">
+              <div style="width: 80px; height: 80px; background: var(--blue-bg); border-radius: 50%; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; font-size: 32px; color: var(--white);">
+                <i class="fas fa-bullhorn"></i>
+              </div>
+            </div>
+            <h3>Advocacy Victory</h3>
+            <p>"Our advocacy campaign helped secure $2M in state funding for dental programs. This will provide care for thousands of underserved patients."</p>
+            <p style="color: var(--blue-bg); font-weight: 600; margin-top: 15px;">- James Wilson, Advocacy Director</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h3>SmileCare Network</h3>
+          <p>You Matter. Your Smile Matters.</p>
+          <p>Providing accessible dental care to underserved communities since 2010.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>Email: info@smilecarenetwork.org</p>
+          <p>Phone: (555) 123-4567</p>
+          <p>Address: 123 Care Street, Health City, HC 12345</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <p><a href="what-we-do.html">What We Do</a></p>
+          <p><a href="who.html">Who We Are</a></p>
+          <p><a href="donate.html">Donate</a></p>
+          <p><a href="community.html">Community</a></p>
+        </div>
+        <div class="footer-section">
+          <h3>Newsletter</h3>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required style="padding: 10px; margin-bottom: 10px; width: 100%; border: none; border-radius: 4px;">
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 SmileCare Network. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html> 
